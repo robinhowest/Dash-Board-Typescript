@@ -17,9 +17,9 @@ const posts = [
       role: 'CTO @ Rocketseat'
     },
     content: [
-      {type: 'paragraph' , content: 'Fala galera'},
-      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW return, evento da Rocketseat. O nome do projeto é DoctorCare'},
-      {type: 'link', content: 'robson.design/doctorcare'},    
+      {type: 'paragraph' as const, content: 'Fala galera'},
+      {type: 'paragraph' as const, content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW return, evento da Rocketseat. O nome do projeto é DoctorCare'},
+      {type: 'link' as const, content: 'robson.design/doctorcare'},    
     ],
     publishedAt: new Date('2023-10-22 20:00:00'),
   },
@@ -31,9 +31,9 @@ const posts = [
       role: 'Educador @ Rocketseat'
     },
     content: [
-      {type: 'paragraph', content: 'Fala galera'},
-      {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW return, evento da Rocketseat. O nome do projeto é DoctorCare'},
-      {type: 'link', content: 'robson.design/doctorcare'},    
+      {type: 'paragraph' as const, content: 'Fala galera'},
+      {type: 'paragraph' as const, content: 'Acabei de subir mais um projeto no meu portifa. É um projeto que fiz no NLW return, evento da Rocketseat. O nome do projeto é DoctorCare'},
+      {type: 'link' as const, content: 'robson.design/doctorcare'},    
     ],
     publishedAt: new Date('2023-10-10 20:00:00'),
   },
